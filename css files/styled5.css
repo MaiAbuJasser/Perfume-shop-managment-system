@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+            }
+   body{
+        margin: 10px;
+        background-color: white;
+        background-size: cover;
+         background-position: center;
+                 
+}
+
+.image {
+    float: left;
+  padding: 0px;
+ 
+}
+
+
+ .a{
+float:right;
+margin-top: 100;
+margin-right: 90;
+}
+p{
+    color: rgb(101, 12, 143);
+    font-size: 20px;
+    font-family: cursive;
+    padding-top: 20px;
+    padding-right: 90px;
+}
+
+    
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.menu-bar{
+
+    background-color: darkblue;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: fff;
+}
+.menu-bar ul li{
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.menu-bar ul li:hover{
+background-color: silver;
+border-radius: 7px;
+}
+
+.menu-bar.fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: darkblue;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+display: block;
+margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: violet;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me1:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: darkblue;
+}
+
+   
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .main {
+        max-height: 550px;;
+        background-color: darkblue;
+        color: white;
+        font-size: 38pt;
+        text-align: center;
+        line-height: 550px;
+    }
+    
+     
+    
+        .main {
+            line-height: normal;
+            font-size: auto;
+        }
+     
+    }
+ 
+    
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .main {
+        max-height: 550px;;
+        background-color: darkblue;
+        color: white;
+        font-size: 38pt;
+        text-align: center;
+        line-height: 550px;
+      line-height: normal;
+    font-size: auto;
+    }

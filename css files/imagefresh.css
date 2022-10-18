@@ -1,0 +1,139 @@
+    *{
+  box-sizing: border-box;
+            }
+   body{
+        margin: 10px;
+        background-color: white;
+        background-size: cover;
+         background-position: center;
+         font-family: sans-serif;              
+}
+.image-list-small {
+     max-width: 5000px;
+
+  font-family:  sans-serif;
+  margin: 50;
+  text-align: center;
+  padding: 0;
+ 
+}
+
+.image-list-small li {
+  display: inline-block;
+  width: 300px;
+  margin: 0 12px 30px;
+  height: 300px
+}
+
+
+/* Photo */
+
+
+.image-list-small .details {
+  margin-top:-12px;
+  padding: 15px;
+  text-align: center;
+font-family: cursive;
+
+     
+
+}
+.btns{
+    position: absolute;
+    display: flex;
+}
+
+.btn{
+    background: transparent;
+    border: none;
+    margin: 5px;
+    font-size: 15px;
+    outline: none;
+    color: black;
+    margin-top: -5;
+}
+
+.btn i:hover{
+    cursor: pointer;
+}
+
+
+    
+.menu-bar{
+    background: rgb(0,0,0);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: fff;
+}
+.menu-bar ul li{
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.menu-bar ul li:hover{
+background: rgb(173, 118, 187);
+border-radius: 7px;
+}
+
+.menu-bar.fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+display: block;
+margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: violet;
+}
+    
+
+/* Title */
+
+.image-list-small .details h3 {
+  display: block;
+  font-size: 12px;
+  margin: 0 0 3px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.image-list-small .details .image-author {
+  display: block;
+    margin: 10px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
